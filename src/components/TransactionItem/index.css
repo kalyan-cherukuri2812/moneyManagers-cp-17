@@ -1,0 +1,21 @@
+.list {
+  list-style-type: none;
+  border-bottom: 2px solid #cbd5e1;
+  display: flex;
+}
+.list-p {
+  font-family: roboto;
+  font-weight: 500;
+  color: #7e858e;
+  padding-left: 10px;
+  width: 28%;
+}
+.del-btn {
+  background-color: transparent;
+  border: 0px;
+}
+
+.del-img {
+  width: 25px;
+  height: 25px;
+}

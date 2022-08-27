@@ -1,0 +1,73 @@
+.balance-card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.bg-1 {
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+}
+.bg-2 {
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+}
+.bg-3 {
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+}
+.b-sub-card {
+  border-radius: 15px;
+  padding: 20px;
+
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.b-img {
+  width: 65px;
+  height: 65px;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+.b-p1 {
+  color: #7e858e;
+  font-family: roboto;
+}
+.b-p2 {
+  color: #7e858e;
+  font-family: roboto;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-card {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .b-sub-card {
+    padding: 15px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .b-img {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+  }
+  .b-p2 {
+    font-size: 18px;
+  }
+}

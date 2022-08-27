@@ -1,0 +1,131 @@
+.bg-container {
+  min-height: 100vh;
+  background-size: cover;
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.great-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 90%;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.g-h {
+  font-family: roboto;
+  color: #475569;
+}
+.g-p {
+  font-family: roboto;
+  color: #475569;
+}
+span {
+  color: #0b69ff;
+}
+
+.down-card {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 25px;
+  border: 2px solid #cbd5e1;
+  border-radius: 10px;
+}
+.t-h {
+  color: #475569;
+  font-family: roboto;
+  font-size: 25px;
+}
+.input-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.label {
+  color: #475569;
+  font-family: roboto;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.input {
+  padding: 6px;
+  font-family: roboto;
+  border-radius: 3px;
+  border: 2px solid #cbd5e1;
+}
+.add-btn {
+  background-color: #0b69ff;
+  color: white;
+  padding: 7px;
+  padding-left: 12px;
+  padding-right: 14px;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.history-card {
+  width: 100%;
+  border: 2px solid #cbd5e1;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 25px;
+}
+.h-h {
+  color: #475569;
+  font-family: roboto;
+  font-size: 25px;
+}
+
+.history-sub-card {
+  border: 2px solid #cbd5e1;
+  border-bottom: none;
+}
+.history-sub-div {
+  display: flex;
+  border-bottom: 2px solid #cbd5e1;
+}
+.h-p {
+  font-family: roboto;
+  font-weight: 500;
+  color: #1e293b;
+  padding-left: 10px;
+  width: 28%;
+}
+.ul {
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .great-card {
+    align-items: flex-start;
+  }
+  .down-card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .form {
+    width: 40%;
+  }
+  .history-card {
+    width: 55%;
+  }
+}
