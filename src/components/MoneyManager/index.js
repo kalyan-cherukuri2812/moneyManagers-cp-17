@@ -19,6 +19,7 @@ const transactionTypeOptions = [
 
 class MoneyManager extends Component {
   state = {
+    income: '',
     ipTitle: '',
     ipAmount: '',
     ipType: transactionTypeOptions[0].optionId,
@@ -68,7 +69,7 @@ class MoneyManager extends Component {
     const {transactionItemList} = this.state
     let income = 0
     transactionItemList.forEach(each => {
-      if (each.type === transactionTypeOptions[0].displayText) {
+      if (each.type === transactionTypeOptions[0].optionId) {
         income += each.amount
       }
     })
@@ -79,7 +80,7 @@ class MoneyManager extends Component {
     const {transactionItemList} = this.state
     let expenses = 0
     transactionItemList.forEach(each => {
-      if (each.type === transactionTypeOptions[1].displayText) {
+      if (each.type === transactionTypeOptions[1].optionId) {
         expenses += each.amount
       }
     })
